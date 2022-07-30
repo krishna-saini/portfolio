@@ -1,0 +1,150 @@
+/**************************/
+/* HEADER */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #fdf2e9; */
+  height: 9.6rem;
+  padding: 0 12.8rem;
+  position: relative;
+}
+
+.header a ion-icon {
+  font-size: 3rem;
+  color: #c52323;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 13.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #131816;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #c52323;
+  text-decoration: underline;
+}
+
+/**************************/
+/* IntrO SECTION */
+/**************************/
+
+.section-intro {
+  padding: 6.6rem 0;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.intro-img-box {
+  justify-self: flex-end;
+}
+.intro-img-box img {
+  width: 30rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  object-position: center;
+}
+
+.into-text-box {
+}
+
+/**************************/
+/* Project SECTION */
+/**************************/
+.section-project {
+  padding: 9.6rem 0;
+}
+
+/**************************/
+/* CSS projects SECTION */
+/**************************/
+
+.css-project {
+  /* border: 1px solid #131816; */
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 2px 2px 1px 2px #77b199;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn--full ion-icon {
+  margin-right: 0.8rem;
+}
+
+/**************************/
+/* Footer SECTION */
+/**************************/
+.footer {
+  margin: 9.6rem 0 0 0;
+  padding: 4.6rem 0 4.6rem 0;
+  background-color: #131816;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-heading {
+  color: #fff !important;
+  margin-left: 4rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  list-style: none;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+  font-size: 1.4rem;
+}
+
+.link:hover,
+.link:active {
+  color: #c52323;
+}
+
+.link img {
+  cursor: pointer;
+  height: 40px;
+}
+
+.email {
+  font-size: 1.4rem;
+  color: #fff;
+}
